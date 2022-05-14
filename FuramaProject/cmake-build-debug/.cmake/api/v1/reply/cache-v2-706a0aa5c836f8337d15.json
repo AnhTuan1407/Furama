@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug"
+			"value" : "c:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/PC/Desktop/C++/FuramaProject"
+			"value" : "C:/Users/PC/Desktop/C++/Furama/FuramaProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug"
+			"value" : "C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"
 		},
 		{
 			"name" : "FuramaProject_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/C++/FuramaProject"
+			"value" : "C:/Users/PC/Desktop/C++/Furama/FuramaProject"
 		}
 	],
 	"kind" : "cache",

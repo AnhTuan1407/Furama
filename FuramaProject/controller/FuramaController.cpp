@@ -24,14 +24,16 @@ void FuramaController::displayMainMenu()
         cin >> choice;
 
         switch (choice) {
-            case 1:
+            case 1: {
                 CustomerManagement customerManagement;
                 customerManagement.customerMenu();
                 break;
-            case 2:
+            }
+            case 2: {
                 EmployeeManagement employeeManagement;
                 employeeManagement.employeeMenu();
                 break;
+            }
             case 3:
                 FacilityManagement facilityManagement;
                 facilityManagement.facilityMenu();

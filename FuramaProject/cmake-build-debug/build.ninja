@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target FuramaProject
 
@@ -49,131 +49,159 @@ cmake_ninja_workdir = C$:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug/
 
 build cmake_object_order_depends_target_FuramaProject: phony || CMakeFiles/FuramaProject.dir
 
-build CMakeFiles/FuramaProject.dir/model/Booking.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Booking.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Booking.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Booking.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Booking.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Employee.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Employee.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Employee.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Employee.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Employee.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Facility.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Facility.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Facility.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Facility.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Facility.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/House.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/House.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/House.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/House.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\House.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Person.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Person.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Person.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Person.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Person.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Room.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Room.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Room.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Room.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Room.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Villa.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Villa.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Villa.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Villa.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Villa.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/main.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/main.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/main.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/main.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir
 
-build CMakeFiles/FuramaProject.dir/model/Customer.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Customer.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Customer.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Customer.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Customer.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/model/Contract.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/model/Contract.cpp || cmake_object_order_depends_target_FuramaProject
+build CMakeFiles/FuramaProject.dir/model/Contract.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Contract.cpp || cmake_object_order_depends_target_FuramaProject
   DEP_FILE = CMakeFiles\FuramaProject.dir\model\Contract.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\model
 
-build CMakeFiles/FuramaProject.dir/Controller/FuramaController.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/FuramaController.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\FuramaController.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/FuramaController.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FuramaController.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\FuramaController.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/CustomerManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/CustomerManagement.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\CustomerManagement.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/CustomerManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/CustomerManagement.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\CustomerManagement.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/EmployeeManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/EmployeeManagement.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\EmployeeManagement.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/EmployeeManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/EmployeeManagement.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\EmployeeManagement.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/FacilityManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/FacilityManagement.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\FacilityManagement.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/FacilityManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FacilityManagement.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\FacilityManagement.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/BookingManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/BookingManagement.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\BookingManagement.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/BookingManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingManagement.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\BookingManagement.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/BookingService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/BookingService.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\BookingService.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/BookingService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingService.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\BookingService.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/ContractService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/ContractService.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\ContractService.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/ContractService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/ContractService.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\ContractService.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
 
-build CMakeFiles/FuramaProject.dir/Controller/PromotionManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/FuramaProject/Controller/PromotionManagement.cpp || cmake_object_order_depends_target_FuramaProject
-  DEP_FILE = CMakeFiles\FuramaProject.dir\Controller\PromotionManagement.cpp.obj.d
+build CMakeFiles/FuramaProject.dir/controller/PromotionManagement.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/PromotionManagement.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\controller\PromotionManagement.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/PC/Desktop/C++/FuramaProject/. -IC:/Users/PC/Desktop/C++/FuramaProject/model
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\Controller
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\controller
+
+build CMakeFiles/FuramaProject.dir/service/EmployeeService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/service/EmployeeService.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\service\EmployeeService.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
+  OBJECT_DIR = CMakeFiles\FuramaProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\service
+
+build CMakeFiles/FuramaProject.dir/service/CustomerService.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/service/CustomerService.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\service\CustomerService.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
+  OBJECT_DIR = CMakeFiles\FuramaProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\service
+
+build CMakeFiles/FuramaProject.dir/until/ReadAndWriteEmployee.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteEmployee.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\until\ReadAndWriteEmployee.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
+  OBJECT_DIR = CMakeFiles\FuramaProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\until
+
+build CMakeFiles/FuramaProject.dir/until/ReadAndWriteCustomer.cpp.obj: CXX_COMPILER__FuramaProject_Debug C$:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteCustomer.cpp || cmake_object_order_depends_target_FuramaProject
+  DEP_FILE = CMakeFiles\FuramaProject.dir\until\ReadAndWriteCustomer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/. -IC:/Users/PC/Desktop/C++/Furama/FuramaProject/model
+  OBJECT_DIR = CMakeFiles\FuramaProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\FuramaProject.dir\until
 
 
 # =============================================================================
@@ -183,7 +211,7 @@ build CMakeFiles/FuramaProject.dir/Controller/PromotionManagement.cpp.obj: CXX_C
 #############################################
 # Link the executable FuramaProject.exe
 
-build FuramaProject.exe: CXX_EXECUTABLE_LINKER__FuramaProject_Debug CMakeFiles/FuramaProject.dir/model/Booking.cpp.obj CMakeFiles/FuramaProject.dir/model/Employee.cpp.obj CMakeFiles/FuramaProject.dir/model/Facility.cpp.obj CMakeFiles/FuramaProject.dir/model/House.cpp.obj CMakeFiles/FuramaProject.dir/model/Person.cpp.obj CMakeFiles/FuramaProject.dir/model/Room.cpp.obj CMakeFiles/FuramaProject.dir/model/Villa.cpp.obj CMakeFiles/FuramaProject.dir/main.cpp.obj CMakeFiles/FuramaProject.dir/model/Customer.cpp.obj CMakeFiles/FuramaProject.dir/model/Contract.cpp.obj CMakeFiles/FuramaProject.dir/Controller/FuramaController.cpp.obj CMakeFiles/FuramaProject.dir/Controller/CustomerManagement.cpp.obj CMakeFiles/FuramaProject.dir/Controller/EmployeeManagement.cpp.obj CMakeFiles/FuramaProject.dir/Controller/FacilityManagement.cpp.obj CMakeFiles/FuramaProject.dir/Controller/BookingManagement.cpp.obj CMakeFiles/FuramaProject.dir/Controller/BookingService.cpp.obj CMakeFiles/FuramaProject.dir/Controller/ContractService.cpp.obj CMakeFiles/FuramaProject.dir/Controller/PromotionManagement.cpp.obj
+build FuramaProject.exe: CXX_EXECUTABLE_LINKER__FuramaProject_Debug CMakeFiles/FuramaProject.dir/model/Booking.cpp.obj CMakeFiles/FuramaProject.dir/model/Employee.cpp.obj CMakeFiles/FuramaProject.dir/model/Facility.cpp.obj CMakeFiles/FuramaProject.dir/model/House.cpp.obj CMakeFiles/FuramaProject.dir/model/Person.cpp.obj CMakeFiles/FuramaProject.dir/model/Room.cpp.obj CMakeFiles/FuramaProject.dir/model/Villa.cpp.obj CMakeFiles/FuramaProject.dir/main.cpp.obj CMakeFiles/FuramaProject.dir/model/Customer.cpp.obj CMakeFiles/FuramaProject.dir/model/Contract.cpp.obj CMakeFiles/FuramaProject.dir/controller/FuramaController.cpp.obj CMakeFiles/FuramaProject.dir/controller/CustomerManagement.cpp.obj CMakeFiles/FuramaProject.dir/controller/EmployeeManagement.cpp.obj CMakeFiles/FuramaProject.dir/controller/FacilityManagement.cpp.obj CMakeFiles/FuramaProject.dir/controller/BookingManagement.cpp.obj CMakeFiles/FuramaProject.dir/controller/BookingService.cpp.obj CMakeFiles/FuramaProject.dir/controller/ContractService.cpp.obj CMakeFiles/FuramaProject.dir/controller/PromotionManagement.cpp.obj CMakeFiles/FuramaProject.dir/service/EmployeeService.cpp.obj CMakeFiles/FuramaProject.dir/service/CustomerService.cpp.obj CMakeFiles/FuramaProject.dir/until/ReadAndWriteEmployee.cpp.obj CMakeFiles/FuramaProject.dir/until/ReadAndWriteCustomer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FuramaProject.dir
@@ -198,7 +226,7 @@ build FuramaProject.exe: CXX_EXECUTABLE_LINKER__FuramaProject_Debug CMakeFiles/F
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\PC\Desktop\C++\FuramaProject\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\PC\Desktop\C++\Furama\FuramaProject\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -209,7 +237,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\PC\Desktop\C++\FuramaProject\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Desktop\C++\FuramaProject -BC:\Users\PC\Desktop\C++\FuramaProject\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\PC\Desktop\C++\Furama\FuramaProject\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Desktop\C++\Furama\FuramaProject -BC:\Users\PC\Desktop\C++\Furama\FuramaProject\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -227,7 +255,7 @@ build FuramaProject: phony FuramaProject.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug
+# Folder: C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug
 
 build all: phony FuramaProject.exe
 

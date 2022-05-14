@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FuramaProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FuramaProject-Debug-3f7d77f4bc22d49acd9c.json",
+					"jsonFile" : "target-FuramaProject-Debug-1496349474d35064d1f5.json",
 					"name" : "FuramaProject",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug",
-		"source" : "C:/Users/PC/Desktop/C++/FuramaProject"
+		"build" : "C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug",
+		"source" : "C:/Users/PC/Desktop/C++/Furama/FuramaProject"
 	},
 	"version" : 
 	{

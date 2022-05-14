@@ -39,7 +39,7 @@ public:
     void setEmailAddress(const string &emailAddress);
 
 protected:
-    string namePerson;
+        string namePerson;
         string dateOfBirth;
         string sex;
         string idPerson;

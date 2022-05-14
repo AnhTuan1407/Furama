@@ -1,0 +1,14 @@
+//
+// Created by PC on 13/05/2022.
+//
+
+#ifndef FURAMAPROJECT_CUSTOMERSERVICE_H
+#define FURAMAPROJECT_CUSTOMERSERVICE_H
+
+
+class CustomerService {
+
+};
+
+
+#endif //FURAMAPROJECT_CUSTOMERSERVICE_H

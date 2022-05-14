@@ -7,6 +7,7 @@
 #include "model/Employee.h"
 #include "model/Customer.h"
 #include "Controller/FuramaController.h"
+#include "until/ReadAndWriteEmployee.h"
 
 
 int main() {
@@ -30,5 +31,15 @@ int main() {
 //
 //    Facility* villa = new Villa("3", "public", 40, 3000, 10, "VIP", "Luxury", 12, 5);
 //    villa->output();
+
+FuramaController furamaController;
+furamaController.displayMainMenu();
+
+ReadAndWriteEmployee readAndWriteEmployee;
+list<Employee> list = readAndWriteEmployee.readAllEmployee("C:\\Users\\PC\\Desktop\\C++\\Furama\\FuramaProject\\data\\employee");
+for(Employee e : list){
+    e.output();
+}
+readAndWriteEmployee.writeAllEmployee("C:\\Users\\PC\\Desktop\\C++\\Furama\\FuramaProject\\data\\output", list);
     return 0;
 }

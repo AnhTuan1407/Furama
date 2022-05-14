@@ -6,10 +6,13 @@
 #define FURAMAPROJECT_EMPLOYEEMANAGEMENT_H
 
 #include "../header.h"
+#include "service/EmployeeService.h"
 
 class EmployeeManagement {
 public:
     void employeeMenu();
+private:
+    EmployeeService employeeService;
 };
 
 

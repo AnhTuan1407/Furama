@@ -1,3 +1,3 @@
-C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug/CMakeFiles/FuramaProject.dir
-C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/PC/Desktop/C++/FuramaProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/CMakeFiles/FuramaProject.dir
+C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
