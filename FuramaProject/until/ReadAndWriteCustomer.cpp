@@ -10,7 +10,6 @@ list<Customer> ReadAndWriteCustomer::realAllCustomer(string path) {
     ifstream fiCustomer(path, ios_base::in);
     if(fiCustomer.is_open())
     {
-        cout << "File is open!" << endl;
         while (1)
         {
             string idCode;
@@ -36,8 +35,6 @@ list<Customer> ReadAndWriteCustomer::realAllCustomer(string path) {
             if (fiCustomer.eof())
                 break;
 
-            fiCustomer.ignore();
-
             Customer c(idCode, namePerson, dateOfBirth, sex, idPerson, phoneNumber, emailAddress, typeCustomer, address);
 
             listCustomer.push_back(c);
@@ -49,13 +46,12 @@ list<Customer> ReadAndWriteCustomer::realAllCustomer(string path) {
     return listCustomer;
 }
 
-void ReadAndWriteCustomer::writeAllCustomer(string path, list<Customer> c) {
+void ReadAndWriteCustomer::writeAllCustomer(string path, list<Customer> customer) {
 ofstream foCustomer(path, ios_base::out);
     if(foCustomer.is_open()) {
-        cout << "File is open!";
-        for (Customer c: c) {
+        for (Customer c: customer) {
             foCustomer << c.getIdCode() << "," << c.getNamePerson() << "," << c.getDateOfBirth() << "," << c.getSex() <<
-                    "," << c.getIdPerson() << "," << c.getPhoneNumber() << "," << c.getEmailAddress() << "," <<
+                    "," << c.getIdPerson() << "," << c.getPhoneNumber() << "," << c.getEmailAddress() <<
                     "," << c.getTypeCustomer() << "," << c.getAddress() << endl;
         }
         foCustomer.close();

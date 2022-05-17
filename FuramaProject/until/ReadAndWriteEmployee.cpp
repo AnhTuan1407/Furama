@@ -50,11 +50,11 @@ list<Employee> ReadAndWriteEmployee::readAllEmployee(string path) {
 
 }
 
-void ReadAndWriteEmployee::writeAllEmployee(string path, list<Employee> e) {
+void ReadAndWriteEmployee::writeAllEmployee(string path, list<Employee> employee) {
 ofstream foEmployee(path, ios_base::out);
 if(foEmployee.is_open()) {
     cout << "File is open!";
-    for (Employee e: e) {
+    for (Employee e: employee) {
         foEmployee << e.getIdCode() << "," << e.getNamePerson() << "," << e.getDateOfBirth() << "," << e.getSex() <<
                 "," << e.getIdPerson() << "," << e.getPhoneNumber() << "," << e.getEmailAddress() << "," << e.getLevel()
                 <<
