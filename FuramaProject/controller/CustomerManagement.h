@@ -4,11 +4,13 @@
 #include "FuramaController.h"
 #ifndef FURAMAPROJECT_CUSTOMERMANAGEMENT_H
 #define FURAMAPROJECT_CUSTOMERMANAGEMENT_H
-
+#include "service/CustomerService.h"
 
 class CustomerManagement {
 public:
     void customerMenu();
+private:
+    CustomerService customerService;
 };
 
 

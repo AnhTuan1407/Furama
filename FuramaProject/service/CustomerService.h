@@ -6,8 +6,17 @@
 #define FURAMAPROJECT_CUSTOMERSERVICE_H
 
 
-class CustomerService {
+#include <list>
+#include "Customer.h"
+#include "until/ReadAndWriteCustomer.h"
 
+class CustomerService {
+public:
+    void display();
+    void create();
+    void edit();
+private:
+    list<Customer> listCustomer;
 };
 
 

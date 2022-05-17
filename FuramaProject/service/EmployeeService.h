@@ -16,7 +16,7 @@ public:
     void create();
     void edit();
 private:
-    list<Employee> list;
+    list<Employee> listEmployee;
 
 };
 

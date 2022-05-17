@@ -6,8 +6,14 @@
 #define FURAMAPROJECT_READANDWRITECUSTOMER_H
 
 
-class ReadAndWriteCustomer {
+#include <list>
+#include <string>
+#include "../model/Customer.h"
 
+class ReadAndWriteCustomer {
+public:
+    list<Customer> realAllCustomer(string path);
+    void writeAllCustomer(string path, list<Customer> c);
 };
 
 

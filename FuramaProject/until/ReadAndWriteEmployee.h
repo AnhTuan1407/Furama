@@ -10,7 +10,7 @@
 #include <string>
 #include "../model/Employee.h"
 
-class ReadAndWriteEmployee {
+class  ReadAndWriteEmployee {
 public:
     list<Employee> readAllEmployee(string path);
     void writeAllEmployee(string path, list<Employee> e);

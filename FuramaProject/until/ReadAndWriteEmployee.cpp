@@ -6,59 +6,61 @@
 #include "ReadAndWriteEmployee.h"
 
 list<Employee> ReadAndWriteEmployee::readAllEmployee(string path) {
-    list<Employee> list;
-    ifstream fileIn(path, ios_base::in);
-    if (fileIn.is_open()){
-        cout << "Mo file thanh cong!" << endl;
+    list<Employee> listEmployee;
+    ifstream fiEmployee(path, ios_base::in);
+    if (fiEmployee.is_open())
+    {
+        cout << "File is open!" << endl;
         while (1)
         {
             string idCode;
-            getline(fileIn, idCode, ',');
+            getline(fiEmployee, idCode, ',');
             string idPerson;
-            getline(fileIn, idPerson, ',');
+            getline(fiEmployee, idPerson, ',');
             string namePerson;
-            getline(fileIn, namePerson, ',');
+            getline(fiEmployee, namePerson, ',');
             string dateOfBirth;
-            getline(fileIn, dateOfBirth, ',');
+            getline(fiEmployee, dateOfBirth, ',');
             string sex;
-            getline(fileIn, sex, ',');
+            getline(fiEmployee, sex, ',');
             string phoneNumber;
-            getline(fileIn, phoneNumber, ',');
+            getline(fiEmployee, phoneNumber, ',');
             string emailAddress;
-            getline(fileIn, emailAddress, ',');
+            getline(fiEmployee, emailAddress, ',');
             string level;
-            getline(fileIn, level, ',');
+            getline(fiEmployee, level, ',');
             string position;
-            getline(fileIn, position, ',');
+            getline(fiEmployee, position, ',');
             float salary;
-            fileIn >> salary;
-            fileIn.ignore();
-            if(fileIn.eof())break;
+            fiEmployee >> salary;
+            fiEmployee.ignore();
+            if(fiEmployee.eof())
+                break;
             Employee e(idCode, namePerson, dateOfBirth, sex, idPerson, phoneNumber, emailAddress, level, position, salary);
 
-            list.push_back(e);
+            listEmployee.push_back(e);
         }
-        fileIn.close();
+        fiEmployee.close();
     }
     else
-        cout << "Deo mo duoc file!" << endl;
+        cout << "File not found!" << endl;
 
 
-    return list;
+    return listEmployee;
 
 }
 
 void ReadAndWriteEmployee::writeAllEmployee(string path, list<Employee> e) {
-ofstream fileOut(path, ios_base::out);
-if(fileOut.is_open()) {
-    cout << "Ghi file thanh cong!";
+ofstream foEmployee(path, ios_base::out);
+if(foEmployee.is_open()) {
+    cout << "File is open!";
     for (Employee e: e) {
-        fileOut << e.getIdCode() << "," << e.getNamePerson() << "," << e.getDateOfBirth() << "," << e.getSex() <<
+        foEmployee << e.getIdCode() << "," << e.getNamePerson() << "," << e.getDateOfBirth() << "," << e.getSex() <<
                 "," << e.getIdPerson() << "," << e.getPhoneNumber() << "," << e.getEmailAddress() << "," << e.getLevel()
                 <<
                 "," << e.getPosition() << "," << e.getSalary()<<endl;
     }
-    fileOut.close();
+    foEmployee.close();
 }else
-    cout << "Deo ghi duoc file fix bug di thang ngu!";
+    cout << "File not found!";
 }
