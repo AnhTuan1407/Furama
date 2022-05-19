@@ -23,10 +23,10 @@ list<Customer> ReadAndWriteCustomer::realAllCustomer(string path) {
             string address;
 
             getline(fiCustomer, idCode, ',');
-            getline(fiCustomer, idPerson, ',');
             getline(fiCustomer, namePerson, ',');
             getline(fiCustomer, dateOfBirth, ',');
             getline(fiCustomer, sex, ',');
+            getline(fiCustomer, idPerson, ',');
             getline(fiCustomer, phoneNumber, ',');
             getline(fiCustomer, emailAddress, ',');
             getline(fiCustomer, typeCustomer, ',');

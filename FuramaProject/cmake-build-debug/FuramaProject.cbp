@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FuramaProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FuramaProject">
+				<Option output="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/FuramaProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/PC/Desktop/C++/Furama/FuramaProject/."/>
+					<Add directory="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FuramaProject"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FuramaProject/fast">
+				<Option output="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/FuramaProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/PC/Desktop/C++/Furama/FuramaProject/."/>
+					<Add directory="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FuramaProject/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/C++/Furama/FuramaProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingManagement.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingManagement.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingService.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/BookingService.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/ContractService.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/ContractService.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/CustomerManagement.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/CustomerManagement.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/EmployeeManagement.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/EmployeeManagement.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FacilityManagement.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FacilityManagement.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FuramaController.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/FuramaController.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/PromotionManagement.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/controller/PromotionManagement.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/header.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/main.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Booking.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Booking.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Contract.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Contract.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Customer.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Customer.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Employee.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Employee.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Facility.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Facility.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/House.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/House.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Person.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Person.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Room.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Room.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Villa.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/model/Villa.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/service/CustomerService.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/service/CustomerService.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/service/EmployeeService.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/service/EmployeeService.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteCustomer.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteCustomer.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteEmployee.cpp">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/until/ReadAndWriteEmployee.h">
+			<Option target="FuramaProject"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Desktop/C++/Furama/FuramaProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
