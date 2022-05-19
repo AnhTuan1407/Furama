@@ -24,6 +24,7 @@ void CustomerManagement::customerMenu() {
                 customerService.create();
                 break;
             case 3:
+                customerService.edit();
                 break;
             case 4:
                 return;
